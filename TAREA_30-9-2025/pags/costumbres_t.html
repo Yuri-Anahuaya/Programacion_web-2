@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea - Costumbres de Todos Santos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estructura.css">
+</head>
+<body>
+    <div class="padre container-fluid">
+
+        <!-- MENÚ -->
+        <header class="menu">
+            <nav class="navbar navbar-expand-lg bg-light shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">Menú</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../index.html">Principal</a>
+                            </li>
+
+                            <!-- Menú Halloween -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Halloween</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pags/historia_h.html">Historia</a></li>
+                                    <li><a class="dropdown-item" href="../pags/costumbres_h.html">Costumbres</a></li>
+                                    <li><a class="dropdown-item" href="../pags/gastronomia_h.html">Gastronomía</a></li>
+                                    <li><a class="dropdown-item" href="../pags/libre2_h.html">Página Libre</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Menú Todos Santos -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Todos Santos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pags/historia_t.html">Historia</a></li>
+                                    <li><a class="dropdown-item" href="../pags/costumbres_t.html">Costumbres</a></li>
+                                    <li><a class="dropdown-item" href="../pags/gastronomia_t.html">Gastronomía</a></li>
+                                    <li><a class="dropdown-item" href="../pags/libre1_t.html">Página Libre</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- CONTENIDO -->
+        <main class="contenido container-fluid my-4">
+            <!-- Carrusel -->
+            <div class="cont4 "id="carouselExampleControls" class="carousel slide mb-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/t1.jfif" class="d-block w-100" alt="Imagen 1" style="height: 450px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/t2.jfif" class="d-block w-100" alt="Imagen 2" style="height: 450px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/t3.jfif" class="d-block w-100" alt="Imagen 3" style="height: 450px; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/t4.jfif" class="d-block w-100" alt="Imagen 4" style="height: 450px; object-fit: cover;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+            <!-- Texto -->
+            <section class="cont3">
+                <h2 class="text-center mb-3">Costumbres de Todos Santos</h2>
+                <p class="text-justify px-3">
+                    En Bolivia, la fiesta de Todos Santos se celebra cada 1 y 2 de noviembre.
+                    El 1 de noviembre se cree que las almas de los difuntos regresan al hogar, por lo que las familias preparan una mesa de ofrendas con panes en forma de t’antawawas, bizcochuelos, escaleras, caballos y la comida que más le gustaba al difunto. También se colocan flores, velas y fotografías.
+                </p>
+                <p class="text-justify px-3">
+                    El 2 de noviembre, las familias visitan el cementerio, llevan flores, música y rezan por sus seres queridos fallecidos. En esta fecha, la tradición mezcla la espiritualidad andina con la fe católica, reflejando el respeto y el recuerdo hacia los difuntos.
+                </p>
+            </section>
+        </main>
+
+        <!-- PUBLICIDAD -->
+        <aside class="ads text-center py-3 bg-light border-top">
+            Espacio para anuncios
+        </aside>
+
+        <!-- PIE DE PÁGINA -->
+        <div class="pie container-fluid">
+            <p class="small mb-1">© 2025 - Todos los derechos reservados</p>
+            <p class="small mb-1">Realizado por: Yuri Lidia Aruquipa Añahuaya</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
